@@ -5,6 +5,20 @@
   -ms-user-select:none;
   user-select:none;
 }
+.clock{
+  position:absolute;
+  
+  top:50px;
+  left:450px;
+}
+.clock-h1{
+  font-size:25px;
+  color:#fff;
+  text-shadow: 0 0 5px #F1C40F,
+  0 0 15px #F1C40F,
+  0 0 30px #F1C40F,
+  0 0 60px #F1C40F;
+}
 .calculadora{
   background:rgba(0,0,0);
   
@@ -71,6 +85,21 @@
 
 
 @media screen and (max-width:375px){
+ 
+  .clock{
+    position:absolute;
+    
+    top:10px;
+    left:15px;
+  }
+  .clock-h1{
+    font-size:25px;
+    color:#fff;
+    text-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F;
+  }
   .btn{
     border-radius:10rem;
     width:60px;
@@ -93,5 +122,141 @@
   .App{
     background:#000;
   }
+  .mas{
+    text-align: center;
+    font-size:30px;
+  }
 
 }
+
+
+@media screen and (max-width:360px){
+ 
+  .btn{
+    border-radius:10rem;
+    width:50px;
+    height:50px;
+    font-size:20px;
+    
+  }
+  .clear, .delete{
+    width:55px;
+    height:55px;
+    font-size:12px;
+  }
+  .delete{
+    text-align: center;
+  }
+  .zero{
+    width:140px;
+  }
+}
+
+
+@media screen and (min-width:390px){
+ 
+  .clock{
+    position:absolute;
+    
+    top:150px;
+    left:25px;
+  }
+  .clock-h1{
+    font-size:25px;
+    color:#fff;
+    text-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F;
+  }
+  .btn{
+    border-radius:10rem;
+    width:50px;
+    height:50px;
+    font-size:20px;
+    
+  }
+  .clear, .delete{
+    width:50px;
+    height:50px;
+    font-size:9px;
+  }
+  .delete{
+    text-align: center;
+  }
+  .zero{
+    width:140px;
+  }
+
+}
+@media screen and (min-width:412px) and (max-width:413px){
+  .clock{
+    position:absolute;
+    
+    top:180px;
+    left:25px;
+  }
+  .clock-h1{
+    font-size:25px;
+    color:#fff;
+    text-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F;
+  }
+}
+
+@media screen and (min-width:820px){
+ 
+  .btn{
+    border-radius:10rem;
+    width:70px;
+    height:70px;
+    font-size:30px;
+    
+  }
+  .clear, .delete{
+    width:70px;
+    height:70px;
+    font-size:17px;
+  }
+  .delete{
+    text-align: center;
+  }
+  .zero{
+    width:180px;
+  }
+  .keyboard{
+    padding-left:18px;
+  }
+  
+}
+
+@media screen and (min-width:768px) and (max-width:770px){
+  .calculadora{
+    width:400px;
+  }
+}
+@media screen and (min-width:1024px){
+  .clock{
+    position:absolute;
+    
+    top:50px;
+    left:440px;
+  }
+  .clock-h1{
+    font-size:25px;
+    color:#fff;
+    text-shadow: 0 0 5px #F1C40F,
+    0 0 15px #F1C40F,
+    0 0 30px #F1C40F,
+    0 0 60px #F1C40F;
+  }
+  .App{
+    background:#000
+  }
+  .calculadora{
+    box-shadow: 1px 1px  15px 5px rgba(255,255,255,.2);
+  }
+}
+

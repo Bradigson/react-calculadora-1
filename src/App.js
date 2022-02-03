@@ -26,9 +26,9 @@ function App() {
   }
   return (
     <div className="App">
-       <div className="calculadora p-4 py-5">
+       <div className="calculadora p-4 py-5 pe-2">
        <div className="screem mb-5">
-         <input type="text" className="form-control py-4 fs-1 fw-bolder input" name="calculadora" value={calcula}/>
+         <input type="text" className="form-control py-4 pe-5 fs-1 fw-bolder input" name="calculadora" value={calcula}/>
        </div>
        <div className="keyboard ">
          <div className="row mt-4">
@@ -42,7 +42,7 @@ function App() {
              <button className="btn btn-secondary text-dark" name="%" onClick={handleNumbers}>%</button>
            </div>
            <div className="col">
-             <button className="btn btn-warning text-white mas" name="/" onClick={handleNumbers}>/</button>
+             <button className="btn btn-warning text-white text-center pb-3 mas" name="/" onClick={handleNumbers}>/</button>
            </div>
          </div>
 
@@ -57,7 +57,7 @@ function App() {
            <button className="btn btn-dark text-white" name="3" onClick={handleNumbers}>3</button>
          </div>
          <div className="col">
-           <button className="btn btn-warning text-white mas" name="*" onClick={handleNumbers}>*</button>
+           <button className="btn btn-warning text-white text-center pt-2 mas" name="*" onClick={handleNumbers}>*</button>
          </div>
 
        </div>
@@ -73,7 +73,7 @@ function App() {
            <button className="btn btn-dark text-white" name="6" onClick={handleNumbers}>6</button>
          </div>
          <div className="col">
-           <button className="btn btn-warning text-white mas" name="-" onClick={handleNumbers}>-</button>
+           <button className="btn btn-warning text-white pb-4 mas" name="-" onClick={handleNumbers}>-</button>
          </div>
 
        </div>
@@ -90,7 +90,7 @@ function App() {
            <button className="btn btn-dark text-white" name="9" onClick={handleNumbers}>9</button>
          </div>
          <div className='col'>
-           <button className="btn btn-warning text-white mas" name="+" onClick={handleNumbers}>+</button>
+           <button className="btn btn-warning text-white pb-4 mas" name="+" onClick={handleNumbers}>+</button>
          </div>
 
        </div>
