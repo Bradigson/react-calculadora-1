@@ -67,3 +67,31 @@
   border-radius: 25px;
   
 }
+
+
+
+@media screen and (max-width:375px){
+  .btn{
+    border-radius:10rem;
+    width:60px;
+    height:60px;
+    font-size:20px;
+    
+  }
+
+  .clear, .delete{
+    width:55px;
+    height:55px;
+    font-size:13px;
+  }
+  .delete{
+    text-align: center;
+  }
+  .zero{
+    width:140px;
+  }
+  .App{
+    background:#000;
+  }
+
+}

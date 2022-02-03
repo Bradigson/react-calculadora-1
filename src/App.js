@@ -36,7 +36,7 @@ function App() {
               <button className="btn btn-secondary text-dark text-center clear" onClick={handleClear}>Clear</button>
            </div>
            <div className="col">
-              <button className="btn btn-secondary text-dark text-center delete" onClick={handleDelete}>Delete</button>
+              <button className="btn btn-secondary text-dark text-center delete ps-2" onClick={handleDelete}>Delete</button>
            </div>
            <div className="col">
              <button className="btn btn-secondary text-dark" name="%" onClick={handleNumbers}>%</button>
